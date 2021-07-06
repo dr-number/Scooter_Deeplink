@@ -909,7 +909,7 @@ table.parametrs td{
 }
 .tool img{
     width: 100%;
-    max-height: 224px;
+    height: 224px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
