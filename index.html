@@ -18,18 +18,6 @@
 
     <body id="body">
         <div id="root">
-            <div id="preloader" class="preloader preloader_done">
-                <div class="preloader__body">
-                    <img src="./img/EcoDrive-1.png" alt="" />
-                    <div class="dots">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
 
             <header id="header" class="header">
                 <div class="header__bg"></div>
@@ -41,18 +29,19 @@
                         <a href="https://ec-d.ru/contacts/" class="navbar__link">Контакты</a>
                         <a href="https://ec-d.ru/#support" class="navbar__link">Поддержка</a>
                     </nav>
-                    <button class="navbar__button">Войти в кабинет</button>
                     <div class="navbar__social">
-                        <a href="https://ndlr.cc/gpA"><i class="fab fa-vk"></i></a><a href="https://ndlr.cc/gpz"><i class="fab fa-telegram-plane"></i></a><a href="mailto:support@dlr.tools"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="mailto:"><i class="fas fa-envelope"></i></a>
                     </div>
-                    <button class="navbar__close"><i class="fas fa-times"></i></button>
+                    <button id="navbar__close" class="navbar__close">
+                        <i class="fa fa-times"></i>
+                    </button>
                 </div>
                 <div class="header__buttons">
-                    <button class="header__button">
-                        <span>Войти</span><i class="fas fa-sign-in-alt"></i>
-                        <!---->
+                    <button id="open-menu" class="header__button header__button_mobile">
+                        <span>Меню</span><i class="fas fa-bars"></i>
                     </button>
-                    <button class="header__button header__button_mobile"><span>Меню</span><i class="fas fa-bars"></i></button>
                 </div>
             </header>
             <section id="main" class="main">
@@ -95,14 +84,16 @@
                     </div>
                 </div>
             </section>
+
             <section id="deeplinks" class="section section_subsections deeplinks">
                 <div id="deeplinks-definition" class="section__subsection">
                     <div class="container deeplinks__main">
+
                         <div class="deeplinks__definition">
                             <h2 class="section__h2">
                                 Электросамокат KUGOO S4 - это абсолютно новая модель с очень стильным и необычным дизайном.
                             </h2>
-                            
+
                             <img src="./img/654Kugoo-S4-Jilong_white_1-6.jpg" alt="">
                         </div>
                         <div class="deeplinks__devices">
@@ -134,6 +125,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div id="deeplinks-examples" class="section__subsection">
                     <div class="container deeplinks__examples">
 
@@ -155,11 +147,12 @@
                                 <div class="example__phone iphone">
                                     <div class="iphone__body">
                                         <div class="frame__screen">
-                                            <img src="./img/Kugoo S4 Jilong_white_270_3.jpg" alt="" />
+                                            <img src="./img/Kugoo-S4-ilong_white_270_3.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="example example_right">
                                 <div class="example__body">
                                     <h4 class="example__title">Мотор-колесо 500 ВАТТ</h4>
@@ -174,7 +167,7 @@
                                 <div class="example__phone iphone">
                                     <div class="iphone__body">
                                         <div class="frame__screen">
-                                            <img src="./img/Kugoo S4 Jilong_white_270_7.jpg" alt="" />
+                                            <img src="./img/Kugoo-4-jilong_white_270_7.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -194,11 +187,12 @@
                                 <div class="example__phone iphone">
                                     <div class="iphone__body">
                                         <div class="frame__screen">
-                                            <img src="./img/Kugoo S4 Jilong_white_270_8.jpg" alt="" />
+                                            <img src="./img/Kugoo-S4-Jilong_white_270_8.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="example example_right">
                                 <div class="example__body">
                                     <h4 class="example__title">Новый бортовой компьютер</h4>
@@ -213,7 +207,7 @@
                                 <div class="example__phone iphone">
                                     <div class="iphone__body">
                                         <div class="frame__screen">
-                                            <img src="./img/Kugoo S4 Jilong_white_270_2.jpg" alt="" />
+                                            <img src="./img/Kugoo-S4-Jilong_white_270_2.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -222,6 +216,7 @@
                     </div>
                 </div>
             </section>
+
             <section id="tools" class="section tools">
                 <div class="container">
                     <h2 class="section__h2 section__h2_center">С этим покупают</h2>
@@ -267,8 +262,8 @@
                             <p>Однако, если мы не ответили сразу, не переживайте: максимальное время обработки запроса — двое суток.</p>
                         </div>
                         <div class="support__buttons">
-                            <a href="#"><i class="fab fa-vk"></i>WhatsApp</a>
-                            <a href="#"><i class="fas fa-envelope"></i>Telegram</a>
+                            <a href="#"><i class="fa fa-vk"></i>WhatsApp</a>
+                            <a href="#"><i class="fa fa-envelope"></i>Telegram</a>
                         </div>
                     </div>
                 </div>
@@ -294,8 +289,13 @@
                         </div>
                         <div class="footer__item">
                             <p>Контакты</p>
-                            <a href="https://ldlr.ru/huGgl6fPi"><i class="fab fa-vk"></i>WhatsApp</a>
-                            <a href="mailto:support@dlr.tools"><i class="fas fa-envelope"></i>Telegram</a>
+                            <!-- <a href="https://api.whatsapp.com/send?phone="></a> -->
+                                <span class="social-button social-button--whatsapp js-link" data-href="aHR0cHM6Ly9hcGkud2hhdHNhcHAuY29tL3NlbmQ/cGhvbmU9aHR0cHM6Ly9hcGkud2hhdHNhcHAuY29tL3NlbmQvP3Bob25lPTc5MjMxNzU1NjYw" data-target="_blank"></span>
+
+                            <!--<a href="https://tlgg.ru/login/">
+                                <i class="fas fa-envelope"></i>Telegram
+                            </a>-->
+                            <span class="social-button social-button--telegram js-link" data-href="aHR0cHM6Ly90Lm1lL0Vjb19Ecml2dmU=" data-target="_blank"></span>
                         </div>
                     </div>
                     <div class="footer__main">
@@ -306,8 +306,8 @@
                     </div>
                 </div>
             </footer>
-            
-        </div>
 
+        </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
