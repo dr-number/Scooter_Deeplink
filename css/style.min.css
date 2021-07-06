@@ -919,6 +919,7 @@ table.parametrs td{
 .tool__name {
     font-size: 1.8rem;
     color: #fafafa;
+    height: 70px;
 }
 .tool__descriprion {
     margin-top: 1rem;
